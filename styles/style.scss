@@ -49,6 +49,7 @@
             color: #0d2d3e;
         }
     }
+  
     .button2 {
         //button2 css
         @extend .button;
@@ -59,11 +60,14 @@
         .btn-blue-border {
             border: 1px solid #0d2d3e;
         }
+       
+       
     }
+  
     .contitle {
         position: absolute;
         top: 33%;
-       
+       margin-left: 93px;
         .innerh1 {
             font-family: "Sarabun", sans-serif;
             font-size: 85px;
@@ -76,6 +80,39 @@
         }
 
     }
+    @media (min-width: 1024px) and (max-width: 1024px) {
+      /* Your styles here */
+      .button{
+        right:43px;
+      }
+    .button2{
+      right:-32px;
+    }
+    .contitle{
+      margin-left: 20px;
+     .spancls{
+      h1{
+        font-size: 50px;
+      }
+     }
+    }
+   
+  }
+    @media (min-width: 768px) and (max-width: 1023px)
+  {
+    
+    .contitle{
+      margin-left: 20px;
+     .spancls{
+      h1{
+        font-size: 40px;
+      }
+     }
+    }
+    .button{
+     display: none;
+    }
+  }
 }
 .dash_line {// span class code
     font-family: "Roboto", sans-serif;
@@ -117,10 +154,18 @@
   .btn-14:hover:after {
     width: 100%;
   }
+  .serh1{//everypage title
+    font-size: 50px;
+    display: block;
+    color: #092c3f;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 50px;
+}
   //page2
   .page2{
     background-color:   #f7f7f7;
-    height: 1100px;
+    height: 1000px;
     padding-top: 195px;
     padding-bottom: 170px;
     
@@ -170,15 +215,41 @@
       .text-center:hover{
         color: white;
       }
+       @media (min-width: 768px) and (max-width: 1023px)
+  {
+    .contitle{
+      margin-left: 20px;
+     
+    }
+   .row{
+   margin: 0%;
+   }
+   .card{
+    .cat-icon{
+      padding: 0%;
+      font-size: 10px;
+    }
+    .cat-cap{
+      padding: 0%;
+      font-size: 20px;
+    }
+   }
+    .button{
+     display: none;
+    }
   }
-  .serh1{//everypage title
-    font-size: 50px;
-    display: block;
-    color: #092c3f;
-    font-weight: 900;
-    font-family: "Roboto", sans-serif;
-    margin-bottom: 50px;
+  @media (min-width: 1024px) and (max-width: 1024px) {
+    /* Your styles here */
+    
+  .contitle{
+    margin-left: 20px;
+   
+  }
+ 
 }
+  }
+ 
+
 //page2 end
   //page3
   .img2{//background image of page 3
@@ -459,11 +530,13 @@ p{
             transform: translateX(-50%);
         }
     }
+    body{
+      overflow: visible;
+    }
     
     img{
       width: 100%;
     }
-    
    
       
 

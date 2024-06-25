@@ -53,6 +53,7 @@
 .img .contitle, .img2 .contitle, .imgbg3 .contitle {
   position: absolute;
   top: 33%;
+  margin-left: 93px;
 }
 .img .contitle .innerh1, .img2 .contitle .innerh1, .imgbg3 .contitle .innerh1 {
   font-family: "Sarabun", sans-serif;
@@ -62,6 +63,34 @@
 }
 .img .contitle .inner, .img2 .contitle .inner, .imgbg3 .contitle .inner {
   font-size: 16px;
+}
+@media (min-width: 1024px) and (max-width: 1024px) {
+  .img, .img2, .imgbg3 {
+    /* Your styles here */
+  }
+  .img .button, .img2 .button, .imgbg3 .button, .img .button2, .img2 .button2, .imgbg3 .button2 {
+    right: 43px;
+  }
+  .img .button2, .img2 .button2, .imgbg3 .button2 {
+    right: -32px;
+  }
+  .img .contitle, .img2 .contitle, .imgbg3 .contitle {
+    margin-left: 20px;
+  }
+  .img .contitle .spancls h1, .img2 .contitle .spancls h1, .imgbg3 .contitle .spancls h1 {
+    font-size: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .img .contitle, .img2 .contitle, .imgbg3 .contitle {
+    margin-left: 20px;
+  }
+  .img .contitle .spancls h1, .img2 .contitle .spancls h1, .imgbg3 .contitle .spancls h1 {
+    font-size: 40px;
+  }
+  .img .button, .img2 .button, .imgbg3 .button, .img .button2, .img2 .button2, .imgbg3 .button2 {
+    display: none;
+  }
 }
 
 .dash_line {
@@ -109,9 +138,18 @@
   width: 100%;
 }
 
+.serh1 {
+  font-size: 50px;
+  display: block;
+  color: #092c3f;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 50px;
+}
+
 .page2 {
   background-color: #f7f7f7;
-  height: 1100px;
+  height: 1000px;
   padding-top: 195px;
   padding-bottom: 170px;
 }
@@ -158,14 +196,32 @@
 .page2 .text-center:hover {
   color: white;
 }
-
-.serh1 {
-  font-size: 50px;
-  display: block;
-  color: #092c3f;
-  font-weight: 900;
-  font-family: "Roboto", sans-serif;
-  margin-bottom: 50px;
+@media (min-width: 768px) and (max-width: 1023px) {
+  .page2 .contitle {
+    margin-left: 20px;
+  }
+  .page2 .row {
+    margin: 0%;
+  }
+  .page2 .card .cat-icon {
+    padding: 0%;
+    font-size: 10px;
+  }
+  .page2 .card .cat-cap {
+    padding: 0%;
+    font-size: 20px;
+  }
+  .page2 .button, .page2 .img .button2, .page2 .img2 .button2, .page2 .imgbg3 .button2, .img .page2 .button2, .img2 .page2 .button2, .imgbg3 .page2 .button2 {
+    display: none;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1024px) {
+  .page2 {
+    /* Your styles here */
+  }
+  .page2 .contitle {
+    margin-left: 20px;
+  }
 }
 
 .img2, .imgbg3 {
@@ -436,6 +492,10 @@
     transform: translateX(-50%);
   }
 }
+body {
+  overflow: visible;
+}
+
 img {
   width: 100%;
 }/*# sourceMappingURL=style.css.map */
