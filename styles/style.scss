@@ -24,6 +24,7 @@ z-index: 1000;
             background: #0d2d3e;
         }
     }
+  
 }
 
 //main bg//
@@ -563,15 +564,35 @@ p{
      @media (min-width: 425px) and (max-width: 425px) {
       /* Your styles here */
       .footer-section{
-        width:139%;
+        width:187%;
+        
       }
     .footer-padding{
+      font-size: 30px;
       padding-left:30px;
-     width:100%;
+      font-size: 21px;
+    }
+    .footer-caption{
+      font-size: 21px;
     }
    
      }
- 
+     @media (min-width: 375px) and (max-width: 375px) {
+      /* Your styles here */
+      .footer-section{
+        width:187%;
+        
+      }
+    .footer-padding{
+      font-size: 30px;
+      padding-left:30px;
+      font-size: 21px;
+    }
+    .footer-caption{
+      font-size: 21px;
+    }
+   
+     }
   }
    
 
