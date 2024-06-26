@@ -38,7 +38,7 @@
   border: 1px solid #a6b4bb;
 }
 .img .button .btn-white-border:hover, .img2 .button .btn-white-border:hover, .imgbg3 .button .btn-white-border:hover, .img .button2 .btn-white-border:hover, .img2 .button2 .btn-white-border:hover, .imgbg3 .button2 .btn-white-border:hover {
-  border: 1px solid red;
+  border: 1px solid #0d2d3e;
   color: #0d2d3e;
 }
 .img .button2, .img2 .button2, .imgbg3 .button2 {
