@@ -17,12 +17,15 @@
 }
 //sub header//
 .bottom_bar {
+width: 100%;
+z-index: 1000;
     .navbar_nav a {
         .navbar_brand {
             background: #0d2d3e;
         }
     }
 }
+
 //main bg//
 .img {
     //img css
@@ -81,6 +84,7 @@
 
     }
     @media (min-width: 1024px) and (max-width: 1024px) {
+   
       /* Your styles here */
       .button{
         right:43px;
@@ -112,6 +116,10 @@
     .button{
      display: none;
     }
+  }
+  @media (min-width: 437px) and (max-width: 437px)
+  {
+    
   }
 }
 .dash_line {// span class code
@@ -464,10 +472,11 @@ p{
       }
       .brands{
         background-color: #f7f7f7;
+        padding-bottom: 100px;
       .brand-container {
         overflow: hidden;
-        width: 100%;
-        position: relative;
+      
+        
         .brand-scroll {
             display: flex;
             width: 200%;
@@ -521,7 +530,55 @@ p{
     .footer-copy-right{
       padding-top: 15px;
       padding-bottom: 15px;
-    }}
+    }
+    @media (min-width: 1024px) and (max-width: 1024px) {
+      /* Your styles here */
+    .footer-padding{
+      padding-left:30px;
+      
+    }
+   .resp{
+    width: 123px;
+    margin-left: -119px;
+   }
+   .respn{
+    width: 129px;
+    margin-left: -45px;
+   }
+     }
+     @media (min-width: 768px) and (max-width: 768px) {
+      /* Your styles here */
+    .footer-padding{
+      padding-left:30px;
+    }
+    .resp{
+      width: 123px;
+      margin-left: -119px;
+     }
+     .respn{
+      width: 129px;
+      margin-left: -45px;
+     }
+     }
+     @media (min-width: 425px) and (max-width: 425px) {
+      /* Your styles here */
+      .footer-section{
+        width:139%;
+      }
+    .footer-padding{
+      padding-left:30px;
+     width:100%;
+    }
+   
+     }
+ 
+  }
+   
+
+  
+  
+  
+ 
     @keyframes scroll {
         0% {
             transform: translateX(0);

@@ -14,6 +14,10 @@
   color: #e94d65;
 }
 
+.bottom_bar {
+  width: 100%;
+  z-index: 1000;
+}
 .bottom_bar .navbar_nav a .navbar_brand {
   background: #0d2d3e;
 }
@@ -92,7 +96,6 @@
     display: none;
   }
 }
-
 .dash_line {
   font-family: "Roboto", sans-serif;
   color: #eb566c;
@@ -426,11 +429,10 @@
 
 .brands {
   background-color: #f7f7f7;
+  padding-bottom: 100px;
 }
 .brands .brand-container {
   overflow: hidden;
-  width: 100%;
-  position: relative;
 }
 .brands .brand-container .brand-scroll {
   display: flex;
@@ -482,6 +484,50 @@
 .footer-section .footer-copy-right {
   padding-top: 15px;
   padding-bottom: 15px;
+}
+@media (min-width: 1024px) and (max-width: 1024px) {
+  .footer-section {
+    /* Your styles here */
+  }
+  .footer-section .footer-padding {
+    padding-left: 30px;
+  }
+  .footer-section .resp {
+    width: 123px;
+    margin-left: -119px;
+  }
+  .footer-section .respn {
+    width: 129px;
+    margin-left: -45px;
+  }
+}
+@media (min-width: 768px) and (max-width: 768px) {
+  .footer-section {
+    /* Your styles here */
+  }
+  .footer-section .footer-padding {
+    padding-left: 30px;
+  }
+  .footer-section .resp {
+    width: 123px;
+    margin-left: -119px;
+  }
+  .footer-section .respn {
+    width: 129px;
+    margin-left: -45px;
+  }
+}
+@media (min-width: 425px) and (max-width: 425px) {
+  .footer-section {
+    /* Your styles here */
+  }
+  .footer-section .footer-section {
+    width: 139%;
+  }
+  .footer-section .footer-padding {
+    padding-left: 30px;
+    width: 100%;
+  }
 }
 
 @keyframes scroll {
