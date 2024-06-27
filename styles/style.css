@@ -492,12 +492,18 @@ img {
     padding-top: 101px;
     padding-bottom: 70px;
   }
+  .page2 .contitle {
+    margin-left: 20px;
+  }
   .card3 {
     margin-top: 20px;
   }
   .page3 {
     padding-top: 95px;
     padding-bottom: 0px;
+  }
+  .page3 .contitle {
+    margin-left: 20px;
   }
   .page3 .caption {
     width: 85%;
