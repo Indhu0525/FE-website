@@ -18,7 +18,7 @@
   width: 100%;
   z-index: 1000;
 }
-.bottom_bar .navbar_nav a .navbar_brand {
+.bottom_bar .navbar-nav a .navbar_brand {
   background: #0d2d3e;
 }
 
@@ -68,34 +68,7 @@
 .img .contitle .inner, .img2 .contitle .inner, .imgbg3 .contitle .inner {
   font-size: 16px;
 }
-@media (min-width: 1024px) and (max-width: 1024px) {
-  .img, .img2, .imgbg3 {
-    /* Your styles here */
-  }
-  .img .button, .img2 .button, .imgbg3 .button, .img .button2, .img2 .button2, .imgbg3 .button2 {
-    right: 43px;
-  }
-  .img .button2, .img2 .button2, .imgbg3 .button2 {
-    right: -32px;
-  }
-  .img .contitle, .img2 .contitle, .imgbg3 .contitle {
-    margin-left: 20px;
-  }
-  .img .contitle .spancls h1, .img2 .contitle .spancls h1, .imgbg3 .contitle .spancls h1 {
-    font-size: 50px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1023px) {
-  .img .contitle, .img2 .contitle, .imgbg3 .contitle {
-    margin-left: 20px;
-  }
-  .img .contitle .spancls h1, .img2 .contitle .spancls h1, .imgbg3 .contitle .spancls h1 {
-    font-size: 40px;
-  }
-  .img .button, .img2 .button, .imgbg3 .button, .img .button2, .img2 .button2, .imgbg3 .button2 {
-    display: none;
-  }
-}
+
 .dash_line {
   font-family: "Roboto", sans-serif;
   color: #eb566c;
@@ -104,7 +77,7 @@
 
 .dash_line:before {
   content: "";
-  width: 60px;
+  width: 45px;
   height: 2px;
   background: #eb566c;
   position: absolute;
@@ -199,42 +172,12 @@
 .page2 .text-center:hover {
   color: white;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
-  .page2 .contitle {
-    margin-left: 20px;
-  }
-  .page2 .row {
-    margin: 0%;
-  }
-  .page2 .card .cat-icon {
-    padding: 0%;
-    font-size: 10px;
-  }
-  .page2 .card .cat-cap {
-    padding: 0%;
-    font-size: 20px;
-  }
-  .page2 .button, .page2 .img .button2, .page2 .img2 .button2, .page2 .imgbg3 .button2, .img .page2 .button2, .img2 .page2 .button2, .imgbg3 .page2 .button2 {
-    display: none;
-  }
-}
-@media (min-width: 1024px) and (max-width: 1024px) {
-  .page2 {
-    /* Your styles here */
-  }
-  .page2 .contitle {
-    margin-left: 20px;
-  }
-}
 
 .img2, .imgbg3 {
   background-image: url("../images/section_bg02.jpg.webp");
   height: auto;
   padding-top: 30px;
   padding-bottom: 30px;
-}
-.img2 .img3, .imgbg3 .img3 {
-  width: 1100px;
 }
 .img2 .pb-100, .imgbg3 .pb-100 {
   padding-bottom: 100px;
@@ -265,15 +208,6 @@
   width: 70%;
   margin-top: -50px;
   margin-bottom: 92px;
-}
-.page3 .dash_line:before {
-  content: "";
-  background: #eb566c;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 40px;
-  height: 2px;
 }
 
 .imgbg3 {
@@ -395,9 +329,9 @@
 }
 .page3 .blog-single .blog-img .image_blog ul {
   position: absolute;
-  width: 70%;
+  width: 75%;
+  right: 31%;
   bottom: 38%;
-  right: 36%;
 }
 .page3 .blog-single .blog-img .image_blog ul li {
   font-size: 14px;
@@ -406,6 +340,36 @@
   color: #011548;
   padding: 20px 30px 20px 84px;
   background: #f7f7f7;
+}
+@media (min-width: 768px) {
+  .page3 .blog-single .blog-img .image_blog ul {
+    width: 78%;
+    right: 32%;
+    bottom: 51%;
+  }
+  .page3 .blog-single .blog-img .image_blog ul li {
+    padding: 20px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1024px) {
+  .page3 .blog-single .blog-img .image_blog ul {
+    width: 76%;
+    right: 31%;
+    bottom: 42%;
+  }
+  .page3 .blog-single .blog-img .image_blog li {
+    padding: 20px;
+  }
+}
+@media (min-width: 1440px) and (max-width: 2560px) {
+  .page3 .blog-single .blog-img .image_blog ul {
+    width: 75%;
+    right: 31%;
+    bottom: 38%;
+  }
+  .page3 .blog-single .blog-img .image_blog li {
+    padding: 20px;
+  }
 }
 .page3 .blog-single .blog-img .team-img:hover img {
   transform: scale(1.2);
@@ -425,6 +389,11 @@
   color: #737980;
   font-size: 16px;
   margin-bottom: 30px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .page3 .blog-single .blog-img .blog_footer {
+    padding: 30px;
+  }
 }
 
 .brands {
@@ -485,50 +454,6 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
-@media (min-width: 1024px) and (max-width: 1024px) {
-  .footer-section {
-    /* Your styles here */
-  }
-  .footer-section .footer-padding {
-    padding-left: 30px;
-  }
-  .footer-section .resp {
-    width: 123px;
-    margin-left: -119px;
-  }
-  .footer-section .respn {
-    width: 129px;
-    margin-left: -45px;
-  }
-}
-@media (min-width: 768px) and (max-width: 768px) {
-  .footer-section {
-    /* Your styles here */
-  }
-  .footer-section .footer-padding {
-    padding-left: 30px;
-  }
-  .footer-section .resp {
-    width: 123px;
-    margin-left: -119px;
-  }
-  .footer-section .respn {
-    width: 129px;
-    margin-left: -45px;
-  }
-}
-@media (min-width: 425px) and (max-width: 425px) {
-  .footer-section {
-    /* Your styles here */
-  }
-  .footer-section .footer-section {
-    width: 139%;
-  }
-  .footer-section .footer-padding {
-    padding-left: 30px;
-    width: 100%;
-  }
-}
 
 @keyframes scroll {
   0% {
@@ -544,4 +469,104 @@ body {
 
 img {
   width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .img .contitle, .img2 .contitle, .imgbg3 .contitle {
+    margin-left: 20px;
+  }
+  .img .contitle .spancls h1, .img2 .contitle .spancls h1, .imgbg3 .contitle .spancls h1 {
+    font-size: 40px;
+  }
+  .button, .img .button2, .img2 .button2, .imgbg3 .button2 {
+    display: none;
+  }
+  .page2 {
+    height: auto;
+    padding-top: 101px;
+    padding-bottom: 70px;
+  }
+  .card3 {
+    margin-top: 20px;
+  }
+  .page3 {
+    padding-top: 95px;
+    padding-bottom: 0px;
+  }
+  .page3 .caption {
+    width: 85%;
+  }
+  .imgbg3 {
+    padding-top: 120px;
+    padding-bottom: 200px;
+    height: auto;
+  }
+  .img4 .container .wantToWork h2 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .img .buton, .img2 .buton, .imgbg3 .buton {
+    margin: 0px;
+  }
+  .img .contitle, .img2 .contitle, .imgbg3 .contitle {
+    top: 25%;
+    margin-left: 193px;
+  }
+  .img .contitle .spancls h1, .img2 .contitle .spancls h1, .imgbg3 .contitle .spancls h1 {
+    font-size: 40px;
+  }
+  .page2 {
+    padding-top: 150px;
+    padding-bottom: 110px;
+  }
+  .page3 {
+    padding-top: 95px;
+    padding-bottom: 0px;
+  }
+  .imgbg3 {
+    padding-top: 120px;
+    padding-bottom: 200px;
+    height: auto;
+  }
+  .page2 .team-caption {
+    padding: 12px;
+  }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  .header_area .main_header .bottom_bar .container .row .navbar-nav {
+    display: none;
+  }
+  .img .contitle, .img2 .contitle, .imgbg3 .contitle {
+    margin-left: 20px;
+  }
+  .img .contitle .spancls h1, .img2 .contitle .spancls h1, .imgbg3 .contitle .spancls h1 {
+    font-size: 40px;
+  }
+  .button, .img .button2, .img2 .button2, .imgbg3 .button2 {
+    display: none;
+  }
+  .page2 {
+    height: auto;
+    padding-top: 101px;
+    padding-bottom: 70px;
+  }
+  .card3 {
+    margin-top: 20px;
+  }
+  .page3 {
+    padding-top: 95px;
+    padding-bottom: 0px;
+  }
+  .page3 .caption {
+    width: 85%;
+  }
+  .imgbg3 {
+    padding-top: 120px;
+    padding-bottom: 200px;
+    height: auto;
+  }
+  .img4 .container .wantToWork h2 {
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=style.css.map */

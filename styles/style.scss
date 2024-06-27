@@ -1,3 +1,6 @@
+
+
+
 //header top//
 .container{
   max-width: 1200px;
@@ -19,7 +22,7 @@
 .bottom_bar {
 width: 100%;
 z-index: 1000;
-    .navbar_nav a {
+    .navbar-nav a {
         .navbar_brand {
             background: #0d2d3e;
         }
@@ -84,45 +87,13 @@ z-index: 1000;
         }
 
     }
-    @media (min-width: 1024px) and (max-width: 1024px) {
    
-      /* Your styles here */
-      .button{
-        right:43px;
-      }
-    .button2{
-      right:-32px;
-    }
-    .contitle{
-      margin-left: 20px;
-     .spancls{
-      h1{
-        font-size: 50px;
-      }
-     }
-    }
    
-  }
-    @media (min-width: 768px) and (max-width: 1023px)
-  {
-    
-    .contitle{
-      margin-left: 20px;
-     .spancls{
-      h1{
-        font-size: 40px;
-      }
-     }
-    }
-    .button{
-     display: none;
-    }
-  }
-  @media (min-width: 437px) and (max-width: 437px)
-  {
-    
-  }
+      
+
+  
 }
+
 .dash_line {// span class code
     font-family: "Roboto", sans-serif;
     color: #eb566c;
@@ -130,7 +101,7 @@ z-index: 1000;
 }
 .dash_line:before {
     content: "";
-    width: 60px;
+    width: 45px;
     height: 2px;
     background: #eb566c;
     position: absolute;
@@ -177,7 +148,6 @@ z-index: 1000;
     height: 1000px;
     padding-top: 195px;
     padding-bottom: 170px;
-    
     .card {
         z-index: 2;
         padding: 30px 22px;
@@ -224,40 +194,11 @@ z-index: 1000;
       .text-center:hover{
         color: white;
       }
-       @media (min-width: 768px) and (max-width: 1023px)
-  {
-    .contitle{
-      margin-left: 20px;
-     
-    }
-   .row{
-   margin: 0%;
-   }
-   .card{
-    .cat-icon{
-      padding: 0%;
-      font-size: 10px;
-    }
-    .cat-cap{
-      padding: 0%;
-      font-size: 20px;
-    }
-   }
-    .button{
-     display: none;
-    }
-  }
-  @media (min-width: 1024px) and (max-width: 1024px) {
-    /* Your styles here */
     
-  .contitle{
-    margin-left: 20px;
-   
-  }
+      
  
+
 }
-  }
- 
 
 //page2 end
   //page3
@@ -267,9 +208,7 @@ z-index: 1000;
     padding-top: 30px;
     padding-bottom: 30px;
     @extend .img;
-    .img3 {
-   width: 1100px;
-    }
+    
     .pb-100{
       padding-bottom: 100px;
     }
@@ -300,16 +239,9 @@ z-index: 1000;
         margin-top: -50px;
         margin-bottom: 92px;
       }
-    .dash_line:before{
-        content: "";
-        background: #eb566c;
-        position: absolute;
-        left: 0;
-        top: 50%;
-    width: 40px;
-    height: 2px;
+   
+
 }
- }
  //jessay page
  .imgbg3{
     @extend .img2;
@@ -317,6 +249,7 @@ z-index: 1000;
     height: 65vh;
     padding-bottom: 200px;
  }
+
  .countarea
  {
   margin-top: -60px;
@@ -393,6 +326,7 @@ p{
         height: 2px;
         }
       }
+
       .img4{
         padding-top: 20px;
         padding-bottom: 20px;
@@ -419,7 +353,8 @@ p{
     }
   
   
-    .page3{background-color:   #f7f7f7;
+    .page3{
+    background-color:   #f7f7f7;
     .blog-single{
         
         margin-bottom: 30px;
@@ -437,9 +372,9 @@ p{
             
             ul{
               position: absolute;
-              width: 70%;
+              width: 75%;
+              right: 31%;
               bottom: 38%;
-              right: 36%;
               li{
                 font-size: 14px;
                 font-family: "Roboto", sans-serif;
@@ -450,11 +385,53 @@ p{
               }
             }
           }
+          @media (min-width: 768px) {
+          .image_blog{
+            ul{
+              width: 78%;
+              right: 32%;
+              bottom: 51%;
+            
+              li{
+                padding: 20px;
+              }
+            }
+          }
+        }
+        @media (min-width: 1024px) and (max-width: 1024px)  {
+          .image_blog{
+            ul{
+              width: 76%;
+              right: 31%;
+              bottom: 42%;
+          }
+            
+              li{
+                padding: 20px;
+              }
+            }
+          }
+          @media (min-width: 1440px) and (max-width: 2560px)  {
+            .image_blog{
+              ul{
+                
+    width: 75%;
+    right: 31%;
+    bottom: 38%;
+            }
+              
+                li{
+                  padding: 20px;
+                }
+              }
+            }
+           
           .team-img:hover img {
         transform: scale(1.2);}
           .blog_footer{
             background: #fff;
             padding: 30px 86px 36px 81px;
+          
             h3{
               font-family: "Roboto", sans-serif;
               color: #092c3f;
@@ -468,9 +445,17 @@ p{
               margin-bottom: 30px;
             }
           }
+          @media (min-width: 768px) and (max-width: 1024px) {
+            .blog_footer {
+              padding: 30px;
+            }
+             }
         }
     }
-      }
+   
+     
+  }
+
       .brands{
         background-color: #f7f7f7;
         padding-bottom: 100px;
@@ -532,74 +517,7 @@ p{
       padding-top: 15px;
       padding-bottom: 15px;
     }
-    @media (min-width: 1024px) and (max-width: 1024px) {
-      /* Your styles here */
-    .footer-padding{
-      padding-left:30px;
-      
-    }
-   .resp{
-    width: 123px;
-    margin-left: -119px;
-   }
-   .respn{
-    width: 129px;
-    margin-left: -45px;
-   }
-     }
-     @media (min-width: 768px) and (max-width: 768px) {
-      /* Your styles here */
-    .footer-padding{
-      padding-left:30px;
-    }
-    .resp{
-      width: 123px;
-      margin-left: -119px;
-     }
-     .respn{
-      width: 129px;
-      margin-left: -45px;
-     }
-     }
-     @media (min-width: 425px) and (max-width: 425px) {
-      /* Your styles here */
-      .footer-section{
-        width:187%;
-        
-      }
-    .footer-padding{
-      font-size: 30px;
-      padding-left:30px;
-      font-size: 21px;
-    }
-    .footer-caption{
-      font-size: 21px;
-    }
-   
-     }
-     @media (min-width: 375px) and (max-width: 375px) {
-      /* Your styles here */
-      .footer-section{
-        width:187%;
-        
-      }
-    .footer-padding{
-      font-size: 30px;
-      padding-left:30px;
-      font-size: 21px;
-    }
-    .footer-caption{
-      font-size: 21px;
-    }
-   
-     }
   }
-   
-
-  
-  
-  
- 
     @keyframes scroll {
         0% {
             transform: translateX(0);
@@ -615,11 +533,154 @@ p{
     img{
       width: 100%;
     }
-   
-      
 
-   
-    
+    @media (min-width: 768px) and (max-width: 1023px)
+    {
+      .img{
+        .contitle{
+          margin-left: 20px;
+          .spancls{
+           h1{
+             font-size: 40px;
+           }
+          }
+         }
+      }
+      .button{
+       display: none;
+      }
+      .page2{
+        height:auto;
+        padding-top: 101px;
+        padding-bottom: 70px;
+      }
+      
+      .card3{
+        margin-top: 20px;
+      }
+      .page3{
+        padding-top: 95px;
+        padding-bottom: 0px;
+        .caption{
+          width: 85%;
+        }
+      }
+      .imgbg3{
+        padding-top: 120px;
+        padding-bottom: 200px;
+        height: auto;
+        
+      }
+      .img4{
+        .container{
+          .wantToWork{
+            h2{
+              font-size: 30px;
+            }
+          }
+        }
+      }
+    }
+ 
+    @media (min-width: 1024px) and (max-width: 1400px)
+    {
+      .img{
+        .buton{
+          margin: 0px;
+         
+          
+          
+        }
+        .contitle{
+          top: 25%;
+          margin-left: 193px;
+          .spancls{
+           h1{
+             font-size: 40px;
+           }
+          }
+         }
+        }
+        .page2{
+          padding-top: 150px;
+          padding-bottom: 110px;  
+        }
+        .page3{
+          padding-top: 95px;
+          padding-bottom: 0px;
+        }
+        .imgbg3{
+          padding-top: 120px;
+          padding-bottom: 200px;
+          height: auto;
+          
+        }
+        .page2{
+          .team-caption {
+            padding: 12px;
+        }
+        }
+        }
+        @media (min-width: 425px) and (max-width: 767px)
+        {
+          .header_area{
+          .main_header{
+            .bottom_bar{
+              .container{
+                .row{
+                  .navbar-nav{
+                    display: none;
+                  }
+                }
+              }
+            }
+          }
+          }
+          .img{
+            .contitle{
+              margin-left: 20px;
+              .spancls{
+               h1{
+                 font-size: 40px;
+               }
+              }
+             }
+          }
+          .button{
+           display: none;
+          }
+          .page2{
+            height:auto;
+            padding-top: 101px;
+            padding-bottom: 70px;
+          }
+          
+          .card3{
+            margin-top: 20px;
+          }
+          .page3{
+            padding-top: 95px;
+            padding-bottom: 0px;
+            .caption{
+              width: 85%;
+            }
+          }
+          .imgbg3{
+            padding-top: 120px;
+            padding-bottom: 200px;
+            height: auto;
+            
+          }
+          .img4{
+            .container{
+              .wantToWork{
+                h2{
+                  font-size: 30px;
+                }
+              }
+            }
+          }
+        }
      
  
  
