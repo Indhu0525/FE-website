@@ -1,7 +1,3 @@
-.container {
-  max-width: 1200px;
-}
-
 .header_area {
   position: fixed;
   width: 100%;
@@ -477,7 +473,250 @@ img {
   width: 100%;
 }
 
+@media (min-width: 1221px) and (max-width: 1440px) {
+  .page3 .blog-single .blog-img .image_blog ul {
+    width: 78%;
+    right: 28%;
+    bottom: 40%;
+  }
+  .img2 .img img, .imgbg3 .img img, .img2 .img2 img, .imgbg3 .img2 img, .img2 .imgbg3 img, .imgbg3 .imgbg3 img {
+    width: auto;
+  }
+}
+@media (min-width: 1441px) {
+  .page3 .blog-single .blog-img .image_blog ul {
+    width: 78%;
+    right: 28%;
+    bottom: 33%;
+  }
+}
+@media (min-width: 0px) and (max-width: 424px) {
+  .header_area .main_header .top_bar {
+    display: none;
+  }
+  .header_area .main_header .bottom_bar .container {
+    max-width: 720px;
+  }
+  .header_area .main_header .bottom_bar .container .navbar-nav {
+    display: none;
+  }
+  .img, .img2, .imgbg3 {
+    margin-top: 0%;
+    width: 100%;
+    height: 90vh;
+  }
+  .img .container, .img2 .container, .imgbg3 .container {
+    max-width: 720px;
+  }
+  .img .container .contitle, .img2 .container .contitle, .imgbg3 .container .contitle {
+    margin-left: 20px;
+    top: 14%;
+  }
+  .img .container .contitle .spancls h1, .img2 .container .contitle .spancls h1, .imgbg3 .container .contitle .spancls h1 {
+    font-size: 40px;
+  }
+  .img .container .contitle .spancls h1 .dash_line:before, .img2 .container .contitle .spancls h1 .dash_line:before, .imgbg3 .container .contitle .spancls h1 .dash_line:before {
+    width: 27px;
+  }
+  .img .button, .img2 .button, .imgbg3 .button, .img .button2, .img2 .button2, .imgbg3 .button2 {
+    display: none;
+  }
+  .page2 {
+    height: auto;
+    padding-top: 65px;
+    padding-bottom: 30px;
+  }
+  .page2 .contitle {
+    margin-left: 20px;
+  }
+  .page2 .contitle .dash_line {
+    padding-left: 0px;
+  }
+  .page2 .contitle .serh1 {
+    font-size: 31px;
+  }
+  .card2 {
+    margin-top: 20px;
+  }
+  .card3 {
+    margin-top: 20px;
+  }
+  .page3 {
+    padding-top: 60px;
+    padding-bottom: 0;
+  }
+  .page3 .caption {
+    width: 85%;
+  }
+  .page3 .serh1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .img2 .col1 img, .imgbg3 .col1 img {
+    display: none;
+  }
+  .img2 .phead, .imgbg3 .phead {
+    font-size: 32px;
+    width: 100%;
+  }
+  .img2 .col2, .imgbg3 .col2 {
+    width: 70%;
+  }
+  .imgbg3 {
+    padding-top: 120px;
+    padding-bottom: 200px;
+    height: auto;
+  }
+  .imgbg3 .consecuter .buttonpg {
+    display: none;
+  }
+  .img4 .container .row {
+    padding: 0px;
+  }
+  .img4 .container .wantToWork h2 {
+    font-size: 20px;
+  }
+  .img4 .container .btn-14 {
+    width: auto;
+  }
+  .page3 .contitle {
+    margin-left: 20px;
+  }
+  .page3 .contitle .dash_line {
+    padding-left: 0px;
+  }
+  .page3 .blog-single .blog-img .image_blog ul {
+    width: 79%;
+    right: 32%;
+    bottom: 61%;
+  }
+  .page3 .blog-single .blog-img .image_blog ul li {
+    padding: 20px;
+  }
+  .page3 .blog-single .blog-img .image_blog .blog_footer .readmore {
+    padding: 20px;
+  }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  .header_area .main_header .top_bar {
+    display: none;
+  }
+  .header_area .main_header .bottom_bar .container {
+    max-width: 720px;
+  }
+  .header_area .main_header .bottom_bar .container .navbar-nav {
+    display: none;
+  }
+  .img, .img2, .imgbg3 {
+    margin-top: 0%;
+    width: 100%;
+    height: 70vh;
+  }
+  .img .container, .img2 .container, .imgbg3 .container {
+    max-width: 720px;
+  }
+  .img .container .contitle, .img2 .container .contitle, .imgbg3 .container .contitle {
+    margin-left: 20px;
+    top: 14%;
+  }
+  .img .container .contitle .spancls h1, .img2 .container .contitle .spancls h1, .imgbg3 .container .contitle .spancls h1 {
+    font-size: 40px;
+  }
+  .img .button, .img2 .button, .imgbg3 .button, .img .button2, .img2 .button2, .imgbg3 .button2 {
+    display: none;
+  }
+  .page2 {
+    height: auto;
+    padding-top: 65px;
+    padding-bottom: 30px;
+  }
+  .page2 .contitle {
+    margin-left: 20px;
+  }
+  .page2 .contitle .serh1 {
+    font-size: 31px;
+  }
+  .card2 {
+    margin-top: 20px;
+  }
+  .card3 {
+    margin-top: 20px;
+  }
+  .page3 {
+    padding-top: 60px;
+    padding-bottom: 0;
+  }
+  .page3 .caption {
+    width: 85%;
+  }
+  .page3 .serh1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .img2, .imgbg3 {
+    height: auto;
+  }
+  .img2 .rowflex, .imgbg3 .rowflex {
+    display: inline-block;
+  }
+  .img2 .rowflex .col1, .imgbg3 .rowflex .col1 {
+    display: inline;
+  }
+  .img2 .col2, .imgbg3 .col2 {
+    width: 75%;
+  }
+  .img2 .col2 .dash_line, .imgbg3 .col2 .dash_line {
+    padding: 20px;
+  }
+  .img2 .phead, .imgbg3 .phead {
+    font-size: 32px;
+    width: 100%;
+  }
+  .imgbg3 {
+    padding-top: 120px;
+    padding-bottom: 200px;
+    height: auto;
+  }
+  .imgbg3 .consecuter .buttonpg {
+    display: none;
+  }
+  .imgbg3 .countarea .single-counter {
+    padding: 30px;
+  }
+  .img4 .container {
+    padding: 0px;
+  }
+  .img4 .container .wantToWork h2 {
+    font-size: 20px;
+  }
+  .img4 .container .btn-14 {
+    width: auto;
+  }
+  .page3 .contitle {
+    margin-left: 20px;
+  }
+  .page3 .blog-single .blog-img .image_blog ul {
+    width: 78%;
+    right: 31%;
+    bottom: 51%;
+  }
+  .page3 .blog-single .blog-img .image_blog li {
+    padding: 30px;
+  }
+}
 @media (min-width: 768px) and (max-width: 1023px) {
+  .header_area .main_header .top_bar {
+    display: none;
+  }
+  .header_area .main_header .bottom_bar .container {
+    max-width: 720px;
+  }
+  .header_area .main_header .bottom_bar .container .navbar-nav {
+    display: none;
+  }
+  .img, .img2, .imgbg3 {
+    margin-top: 0px;
+  }
   .img .contitle, .img2 .contitle, .imgbg3 .contitle {
     margin-left: 20px;
   }
@@ -494,6 +733,9 @@ img {
   }
   .page2 .contitle {
     margin-left: 20px;
+  }
+  .page2 .single-team .team-caption {
+    padding: 30px;
   }
   .card3 {
     margin-top: 20px;
@@ -517,7 +759,7 @@ img {
     font-size: 30px;
   }
 }
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1220px) {
   .img .buton, .img2 .buton, .imgbg3 .buton {
     margin: 0px;
   }
@@ -532,6 +774,9 @@ img {
     padding-top: 150px;
     padding-bottom: 110px;
   }
+  .img2 .img, .imgbg3 .img, .img2 .img2, .imgbg3 .img2, .img2 .imgbg3, .imgbg3 .imgbg3 {
+    max-width: 50%;
+  }
   .page3 {
     padding-top: 95px;
     padding-bottom: 0px;
@@ -543,42 +788,5 @@ img {
   }
   .page2 .team-caption {
     padding: 12px;
-  }
-}
-@media (min-width: 425px) and (max-width: 767px) {
-  .header_area .main_header .bottom_bar .container .row .navbar-nav {
-    display: none;
-  }
-  .img .contitle, .img2 .contitle, .imgbg3 .contitle {
-    margin-left: 20px;
-  }
-  .img .contitle .spancls h1, .img2 .contitle .spancls h1, .imgbg3 .contitle .spancls h1 {
-    font-size: 40px;
-  }
-  .button, .img .button2, .img2 .button2, .imgbg3 .button2 {
-    display: none;
-  }
-  .page2 {
-    height: auto;
-    padding-top: 101px;
-    padding-bottom: 70px;
-  }
-  .card3 {
-    margin-top: 20px;
-  }
-  .page3 {
-    padding-top: 95px;
-    padding-bottom: 0px;
-  }
-  .page3 .caption {
-    width: 85%;
-  }
-  .imgbg3 {
-    padding-top: 120px;
-    padding-bottom: 200px;
-    height: auto;
-  }
-  .img4 .container .wantToWork h2 {
-    font-size: 30px;
   }
 }/*# sourceMappingURL=style.css.map */

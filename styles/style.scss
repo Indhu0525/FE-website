@@ -1,6 +1,4 @@
-.container{
-  max-width: 1200px;
-}
+
 //header area//
 .header_area{
   position: fixed;
@@ -532,165 +530,513 @@ p{
       width: 100%;
     }
 //media queries//
-    @media (min-width: 768px) and (max-width: 1023px)
-    {
-      .img{
-        .contitle{
-          margin-left: 20px;
-          .spancls{
-           h1{
-             font-size: 40px;
-           }
+       
+       
+    
+        @media (min-width: 1221px) and (max-width: 1440px) {
+          .page3 .blog-single .blog-img .image_blog ul {
+            width: 78%;
+            right: 28%;
+            bottom: 40%;
           }
-         }
-      }
-      .button{
-       display: none;
-      }
-      .page2{
-        height:auto;
-        padding-top: 101px;
-        padding-bottom: 70px; 
-        .contitle{
-          margin-left: 20px;
+          .img2{
+            .img{
+              img {
+                 width: auto;;
+            }
+            }
+          }
+          
         }
-        
-      }
+    
+        @media (min-width: 1441px) {
+          .page3 .blog-single .blog-img .image_blog ul {
+            width: 78%;
+            right: 28%;
+            bottom: 33%;
+          }
+         
+        }
+    
+        @media (min-width: 0px) and (max-width: 424px) {
+          .header_area {
+    
+            .main_header {
+              .top_bar {
+                display: none;
+              }
+    
+              .bottom_bar {
+                .container {
+                  max-width: 720px;
     
     
-      
-      .card3{
-        margin-top: 20px;
-      }
-      .page3{
-        padding-top: 95px;
-        padding-bottom: 0px;
-        .contitle{
-          margin-left: 20px;
-        }
-        .caption{
-          width: 85%;
-        }
-      }
-      .imgbg3{
-        padding-top: 120px;
-        padding-bottom: 200px;
-        height: auto;
-        
-      }
-      .img4{
-        .container{
-          .wantToWork{
-            h2{
+                  .navbar-nav {
+                    display: none;
+                  }
+    
+                }
+              }
+            }
+    
+          }
+    
+          .img {
+            margin-top: 0%;
+            width: 100%;
+    
+            height: 90vh;
+    
+            .container {
+              max-width: 720px;
+    
+              .contitle {
+                margin-left: 20px;
+                top: 14%;
+    
+                .spancls {
+                  h1 {
+                    font-size: 40px;
+    
+                    .dash_line:before {
+    
+                      width: 27px;
+                    }
+                  }
+    
+                }
+              }
+            }
+    
+            .button {
+              display: none;
+            }
+          }
+    
+          .page2 {
+            height: auto;
+            padding-top: 65px;
+            padding-bottom: 30px;
+    
+            .contitle {
+              margin-left: 20px;
+    
+              .dash_line {
+                padding-left: 0px;
+              }
+    
+              .serh1 {
+                font-size: 31px;
+              }
+            }
+          }
+    
+          .card2 {
+            margin-top: 20px;
+          }
+    
+          .card3 {
+            margin-top: 20px;
+          }
+    
+          .page3 {
+            padding-top: 60px;
+            padding-bottom: 0;
+    
+            .caption {
+              width: 85%;
+            }
+    
+            .serh1 {
               font-size: 30px;
+              margin-bottom: 50px;
+            }
+          }
+    
+          .img2 {
+            .col1{
+             img{
+              display: none;
+             }
+            }
+            .phead {
+              font-size: 32px;
+              width: 100%;
+            }
+            .col2{
+              width: 70%;
+            }
+          }
+    
+          .imgbg3 {
+            padding-top: 120px;
+            padding-bottom: 200px;
+            height: auto;
+    
+            .consecuter {
+              .buttonpg {
+                display: none;
+              }
+            }
+    
+          }
+    
+          .img4 {
+            .container {
+              .row {
+                padding: 0px;
+              }
+    
+    
+    
+              .wantToWork {
+                h2 {
+                  font-size: 20px;
+                }
+              }
+    
+              .btn-14 {
+                width: auto;
+              }
+    
+            }
+          }
+    
+          .page3 {
+            .contitle {
+              margin-left: 20px;
+    
+              .dash_line {
+                padding-left: 0px;
+              }
+            }
+    
+            .blog-single {
+              .blog-img {
+                .image_blog {
+                  ul {
+                    width: 79%;
+                    right: 32%;
+                    bottom: 61%;
+    
+                    li {
+                      padding: 20px;
+                    }
+                  }
+                  .blog_footer{
+                    
+                    .readmore {
+                     
+                      padding: 20px;
+                  }
+                  }
+                }
+              }
+    
             }
           }
         }
-      }
-    }
- 
-    @media (min-width: 1024px) and (max-width: 1440px)
-    {
-      .img{
-        .buton{
-          margin: 0px;
-        }
-        .contitle{
-          top: 25%;
-          margin-left: 193px;
-          .spancls{
-           h1{
-             font-size: 40px;
-           }
+        @media (min-width: 425px) and (max-width: 767px) {
+          .header_area {
+    
+            .main_header {
+              .top_bar {
+                display: none;
+              }
+    
+              .bottom_bar {
+                .container {
+                  max-width: 720px;
+    
+    
+                  .navbar-nav {
+                    display: none;
+                  }
+    
+                }
+              }
+            }
+    
           }
-         }
-        }
-        .page2{
-          padding-top: 150px;
-          padding-bottom: 110px;  
+    
+          .img {
+            margin-top: 0%;
+            width: 100%;
+            height: 70vh;
+           
+    
+            .container {
+              max-width: 720px;
+    
+              .contitle {
+                margin-left: 20px;
+                top: 14%;
+    
+                .spancls {
+                  h1 {
+                    font-size: 40px;
+                  }
+    
+                }
+              }
+            }
+    
+            .button {
+              display: none;
+            }
+          }
+    
+          .page2 {
+            height: auto;
+            padding-top: 65px;
+            padding-bottom: 30px;
+    
+            .contitle {
+              margin-left: 20px;
+    
+              .serh1 {
+                font-size: 31px;
+              }
+            }
+          }
+    
+          .card2 {
+            margin-top: 20px;
+          }
+    
+          .card3 {
+            margin-top: 20px;
+          }
+    
+          .page3 {
+            padding-top: 60px;
+            padding-bottom: 0;
+    
+            .caption {
+              width: 85%;
+            }
+    
+            .serh1 {
+              font-size: 30px;
+              margin-bottom: 50px;
+            }
+          }
+    
+          .img2 {
+            height: auto;
+            .rowflex{
+              display: inline-block;
+              .col1{
+                display: inline;
+                img{
+              
+                }
+               }
+            }
+           
+            .col2{
+              width: 75%;
+              .dash_line{
+                padding: 20px;
+               
+              }
+            }
+            .phead {
+              font-size: 32px;
+              width: 100%;
+            }
+          }
+    
+          .imgbg3 {
+            padding-top: 120px;
+            padding-bottom: 200px;
+            height: auto;
+    
+            .consecuter {
+              .buttonpg {
+                display: none;
+              }
+              
+      
+            }
+            .countarea {.single-counter {
           
-        }
-        .page3{
-          padding-top: 95px;
-          padding-bottom: 0px;
-        }
-        .imgbg3{
-          padding-top: 120px;
-          padding-bottom: 200px;
-          height: auto;
+              padding: 30px;
+           
+          }}
+          }
           
+          .img4 {
+            .container {
+             
+                padding: 0px;
+              
+              .wantToWork {
+                h2 {
+                  font-size: 20px;
+                }
+           
+            }
+              .btn-14 {
+                width: auto;
+              }
+            }
+          }
+    
+          .page3 {
+            .contitle {
+              margin-left: 20px;
+            }
+    
+            .blog-single {
+              .blog-img {
+                .image_blog {
+                  ul {
+                    width: 78%;
+                    right: 31%;
+                    bottom: 51%;
+                  }
+    
+                  li {
+                    padding: 30px;
+                  }
+                }
+                
+              }
+    
+            }
+          }
         }
-        .page2{
-          .team-caption {
-            padding: 12px;
-        }
-        }
-        }
-        @media (min-width: 425px) and (max-width: 767px)
-        {
-          .header_area{
-          .main_header{
-            .bottom_bar{
-              .container{
-                .row{
-                  .navbar-nav{
+        @media (min-width: 768px) and (max-width: 1023px) {
+          .header_area {
+            .main_header {
+              .top_bar {
+                display: none;
+              }
+    
+              .bottom_bar {
+                .container {
+                  max-width: 720px;
+    
+                  .navbar-nav {
                     display: none;
                   }
                 }
               }
             }
           }
-          }
-          .img{
-            .contitle{
+    
+          .img {
+            margin-top: 0px;
+    
+            .contitle {
               margin-left: 20px;
-              .spancls{
-               h1{
-                 font-size: 40px;
-               }
+    
+              .spancls {
+                h1 {
+                  font-size: 40px;
+                }
               }
-             }
+            }
           }
-          .button{
-           display: none;
+    
+          .button {
+            display: none;
           }
-          .page2{
-            height:auto;
+    
+          .page2 {
+            height: auto;
             padding-top: 101px;
             padding-bottom: 70px;
+    
+            .contitle {
+              margin-left: 20px;
+            }
+    
+            .single-team {
+              .team-caption {
+                padding: 30px;
+              }
+            }
           }
-          
-          .card3{
+          .card3 {
             margin-top: 20px;
           }
-          .page3{
+    
+          .page3 {
             padding-top: 95px;
             padding-bottom: 0px;
-            .caption{
+    
+            .contitle {
+              margin-left: 20px;
+            }
+    
+            .caption {
               width: 85%;
             }
           }
-          .imgbg3{
+    
+          .imgbg3 {
             padding-top: 120px;
             padding-bottom: 200px;
             height: auto;
-            
+    
           }
-          .img4{
-            .container{
-              .wantToWork{
-                h2{
+          .img4 {
+            .container {
+              .wantToWork {
+                h2 {
                   font-size: 30px;
                 }
               }
             }
           }
         }
-     
- 
- 
 
-
-
-
+        @media (min-width: 1024px) and (max-width: 1220px) {
+          .img {
+            .buton {
+              margin: 0px;
+            }
+    
+            .contitle {
+              top: 25%;
+              margin-left: 193px;
+    
+              .spancls {
+                h1 {
+                  font-size: 40px;
+                }
+              }
+            }
+          }
+          .page2 {
+            padding-top: 150px;
+            padding-bottom: 110px;
+    
+          }
+    .img2{
+      .img{
+        max-width: 50%;
+      }
+    }
+          .page3 {
+            padding-top: 95px;
+            padding-bottom: 0px;
+          }
+    
+          .imgbg3 {
+            padding-top: 120px;
+            padding-bottom: 200px;
+            height: auto;
+    
+          }
+    
+          .page2 {
+            .team-caption {
+              padding: 12px;
+            }
+          }
+        }
+    
 
